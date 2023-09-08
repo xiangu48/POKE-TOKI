@@ -1,0 +1,109 @@
+/* navbar */
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+body{
+    background-image: url('mainBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.fb{
+    color: #3b5998;
+}
+.tt{
+    color: #00acee;
+}
+.yt{
+    color: red;
+}
+.ig{
+    color:#bc31a2;
+}
+.fb:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.yt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.ig:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.tt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.nav-link:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.social{
+    background-color: rgba(238, 235, 235, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+}
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid tomato;
+}
+/* footer */
+.container-ft{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.ft-A{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    text-align: center;
+  }
+
+.ft-A:hover{
+    color: tomato;
+}
+
+.columnF {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+.red{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+
+.rowF:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ftM{
+    margin-bottom: 30px;
+}
+
+.mt-md{
+    position: relative;
+    margin-top: 16%;
+}
+/* body */
+.bg{
+    background-color: rgba(255, 255, 255, 0.536);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px 10px 10px 0px;
+}

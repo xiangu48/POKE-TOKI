@@ -1,0 +1,220 @@
+/* Navbar */
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+.fb{
+    color: #3b5998;
+}
+.tt{
+    color: #00acee;
+}
+.yt{
+    color: red;
+}
+.ig{
+    color:#bc31a2;
+}
+.fb:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.yt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.ig:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.tt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.nav-link{
+    color: black;
+    
+}
+.nav-link:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.social{
+    background-color: rgba(238, 235, 235, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+}
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid tomato;
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+/* footer */
+.container-ft{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color:  rgba(255, 255, 255);
+    position: relative;
+    margin-top: -10px;
+}
+
+.ft-A{
+    text-decoration: none;
+    color: black;
+}
+
+.ft-A:hover{
+    color: tomato;
+}
+
+.columnF {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+
+.rowF:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ftM{
+    margin-bottom: 30px;
+}
+
+.mt-md{
+    position: relative;
+    margin-top: 30%;
+}
+.red{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.sp-b{
+    display: flex;
+    justify-content: space-between;
+}
+/* body start here */
+.img1{
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+.btn-tomato{
+    background-color: rgb(255, 99, 71);
+}
+.btn-tomato:hover{
+    background-color: rgb(90, 35, 25);
+    color: white;
+}
+.p-rel{
+    position: relative;
+}
+.space{
+    width: 100%;
+    height: 300px;
+}
+.bg-op{
+    background-color: white;
+}
+.l-space{
+    letter-spacing: 10px;
+}
+.tSH{
+    text-shadow: 1px 1px 1px black;
+    font-weight: 900;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .rows::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .nav-link{
+    text-align: center;
+  }
+  .imgModify:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .text-bg{
+    background-color: tomato;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .font{
+    font-family: serif;
+    font-weight: 800;
+  }

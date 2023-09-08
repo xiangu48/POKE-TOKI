@@ -1,0 +1,140 @@
+/* navbar */
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+body{
+    background-image: url('mainBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.fb{
+    color: #3b5998;
+}
+.tt{
+    color: #00acee;
+}
+.yt{
+    color: red;
+}
+.ig{
+    color:#bc31a2;
+}
+.fb:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.yt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.ig:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.tt:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.nav-link:hover{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+.red{
+    background-color: rgba(255, 99, 71, 0.8);
+    border-radius: 5px 20px 5px 20px;
+}
+
+.social{
+    background-color: rgba(238, 235, 235, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+}
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid tomato;
+}
+
+/* body */
+.colT{
+    text-align: left;
+}
+.nav-link{
+    text-align: center;
+  }
+
+.mt-20{
+    margin-top: 20%;
+    position: relative;
+}
+.font-seris{
+    font-family: serif;
+    font-weight: 500;
+}
+
+.topBg{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 3px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.btn-tomato{
+    background-color: rgb(255, 99, 71);
+}
+.btn-tomato:hover{
+    background-color: rgba(250, 50, 15, 0.9);
+}
+.footer{
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.444);
+}
+.mt-10{
+    margin-top: 8.8%;
+    position: relative;
+}
+/* footer */
+.container-ft{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+
+.ft-A{
+    text-decoration: none;
+    color: black;
+}
+
+.ft-A:hover{
+    color: tomato;
+}
+
+.columnF {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+
+.rowF:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ftM{
+    margin-bottom: 30px;
+}
+
+.mt-md{
+    position: relative;
+    margin-top: 16%;
+}
